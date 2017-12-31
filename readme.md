@@ -1,9 +1,28 @@
-## curso git desde cero
+﻿## Curso Git desde cero
+Sistema de control de versiones para el mantenimiento eficiente y confiable de archivos.
 
-## una nueva forma de aprender con git
+
+### Zonas de Git
+1. Directorio de trabajo
+2. Área de preparación
+3. Directorio Git
 
 
-1. Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de 2. las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+### Flujo de trabajo básico en Git
 
-## nueva nota para el commit
-texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+1. Modificas una serie de archivos en tu directorio de trabajo.
+
+2. Preparas los archivos, añadiéndolos a tu área de preparación.
+
+3. Confirmas los cambios, lo que toma los archivos tal y como están en el área de preparación y almacena esa copia instantánea de manera permanente en tu directorio de Git.
+
+
+### Configurando Git por primera vez
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git config --global core.editor nano
+git config --list
+```
+
+Esta línea fue creada en la rama master.
